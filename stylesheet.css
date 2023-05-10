@@ -1,4 +1,4 @@
-.navlinks{
+.navlinks {
     padding: 16px;
     display: flex;
     color: white;
@@ -7,18 +7,20 @@
     font-size: 25px;
 }
 
-.navlinks:hover{
+.navlinks:hover {
     color: rgb(47, 147, 147);
     font-size: 40px;
 }
-h1{
+
+h1 {
     position: absolute;
     font-size: 40px;
     left: 900px;
     text-decoration: underline;
 }
+
 /*--------------Begrüßung-------------*/
-.begtext{
+.begtext {
     position: absolute;
     left: 150px;
     right: 150px;
@@ -26,9 +28,10 @@ h1{
     color: white;
     text-align: center;
     font-size: 40px;
-  
+
 }
-.begtext1{
+
+.begtext1 {
     position: absolute;
     left: 50px;
     top: 400px;
@@ -36,7 +39,8 @@ h1{
     width: 500px;
     font-size: 40px;
 }
-.begtext2{
+
+.begtext2 {
     position: absolute;
     right: 50px;
     top: 400px;
@@ -46,7 +50,7 @@ h1{
     text-align: end;
 }
 
-.mond{
+.mond {
     padding: 16px;
     display: flex;
     color: white;
@@ -55,7 +59,7 @@ h1{
     font-size: 25px;
 }
 
-.planeten{
+.planeten {
     margin-top: 150px;
     padding: 30px;
     display: flex;
@@ -64,15 +68,17 @@ h1{
     justify-content: space-around;
     font-size: 45px;
 }
+
 /*--------------Saturn-------------*/
-.saturntext{
+.saturntext {
     position: absolute;
     left: 50px;
     right: 50px;
     color: white;
     font-size: 40px;
 }
-.saturntext1{
+
+.saturntext1 {
     position: absolute;
     top: 850px;
     left: 50px;
@@ -80,79 +86,88 @@ h1{
     font-size: 30px;
     width: 800px;
 }
-.mehrübersaturnlink{
+
+.mehrübersaturnlink {
     color: white;
     position: absolute;
     right: 50px;
     top: 1200px;
     text-decoration: none;
-    font-size: 50px;
+    font-size: 30px;
 }
+
 /*--------------Saturnbilder-------------*/
-.mehrübersaturnlink1{
+
+.mehrsaturntext {
+    color: white;
+    position: absolute;
+    left: 50px;
+    right: 50px;
+    text-decoration: none;
+    font-size: 35px;
+}
+
+.mehrsaturntext1 {
+    color: white;
+    position: absolute;
+    top: 350px;
+    left: 50px;
+    right: 50px;
+    text-decoration: none;
+    font-size: 35px;
+}
+
+.mehrsaturntext2 {
+    color: white;
+    position: absolute;
+    top: 550px;
+    left: 50px;
+    right: 50px;
+    text-decoration: none;
+    font-size: 35px;
+}
+
+.mehrsaturntext3 {
+    color: white;
+    position: absolute;
+    top: 750px;
+    left: 50px;
+    right: 50px;
+    text-decoration: none;
+    font-size: 35px;
+}
+
+.mehrübersaturnlink1 {
     color: white;
     position: absolute;
     right: 50px;
     top: 1200px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 30px;
 }
-.mehrsaturntext{
-    color: white;
-    position: absolute;
-    left:50px;
-    right: 50px;
-    text-decoration: none;
-    font-size: 25px;
-}
-.mehrsaturntext1{
-    color: white;
-    position: absolute;
-    top: 250px;
-    left:50px;
-    right: 50px;
-    text-decoration: none;
-    font-size: 25px;
-}
-.mehrsaturntext2{
-    color: white;
-    position: absolute;
-    top: 450px;
-    left:50px;
-    right: 50px;
-    text-decoration: none;
-    font-size: 25px;
-}
-.mehrsaturntext3{
-    color: white;
-    position: absolute;
-    top: 700px;
-    left:50px;
-    right: 50px;
-    text-decoration: none;
-    font-size: 25px;
-}
+
 /*--------------Mond-------------*/
-.mondtext{
+.mondtext {
     color: white;
     position: absolute;
-    left:50px;
+    left: 50px;
     right: 50px;
     text-decoration: none;
     font-size: 30px;
 }
 
-.mondtext1{
+.mondtext1 {
     color: white;
     position: absolute;
     top: 300px;
-    left:50px;
+    left: 50px;
     right: 50px;
     width: 600px;
     text-decoration: none;
     font-size: 30px;
 }
-.mondtext2{
+
+.mondtext2 {
     color: white;
     position: absolute;
     top: 300px;
@@ -163,7 +178,7 @@ h1{
     text-align: right;
 }
 
-.mondtext3{
+.mondtext3 {
     color: white;
     position: absolute;
     top: 340px;
@@ -174,7 +189,7 @@ h1{
     text-align: right;
 }
 
-.mondtext4{
+.mondtext4 {
     color: white;
     position: absolute;
     top: 640px;
@@ -184,29 +199,33 @@ h1{
     font-size: 30px;
     text-align: left;
 }
-.eagle{
+
+.eagle {
     position: absolute;
     left: 125px;
     top: 600px;
 }
-.mehrüberdenmondlink{
+
+.mehrüberdenmondlink {
     color: white;
     position: absolute;
     right: 50px;
     top: 1200px;
     text-decoration: none;
-    font-size: 50px;
+    font-size: 30px;
 }
 
-.mehrüberdenmondlink1{
+/*------mehr Mond-------*/
+.mehrüberdenmondlink1 {
     color: white;
     position: absolute;
     left: 50px;
     top: 1200px;
     text-decoration: none;
-    font-size: 50px;
+    font-size: 30px;
 }
-.mehrmondtext{
+
+.mehrmondtext {
     color: white;
     position: absolute;
     right: 50px;
@@ -215,8 +234,259 @@ h1{
     width: 1300px;
 }
 
-.eagle1{
+.eagle1 {
     position: absolute;
     left: 800px;
     top: 1200px;
+}
+
+/*-------Mars--------*/
+.marstext {
+    color: white;
+    position: absolute;
+    top: 200px;
+    left: 50px;
+    right: 50px;
+    text-decoration: none;
+    font-size: 35px;
+}
+
+.marstext1 {
+    color: white;
+    position: absolute;
+    top: 400px;
+    left: 50px;
+    right: 50px;
+    text-decoration: none;
+    font-size: 35px;
+}
+
+.marstext2 {
+    color: white;
+    position: absolute;
+    top: 600px;
+    left: 50px;
+    right: 50px;
+    text-decoration: none;
+    font-size: 35px;
+}
+
+.marstext3 {
+    color: white;
+    position: absolute;
+    top: 850px;
+    left: 50px;
+    right: 50px;
+    text-decoration: none;
+    font-size: 35px;
+}
+
+.mehrüberdenmarslink {
+    color: white;
+    position: absolute;
+    right: 50px;
+    top: 1200px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+/*--------Mehr Mars-----*/
+.containermehrmars {
+    justify-content: space-between;
+}
+
+.mehrmarstext {
+    color: white;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    right: 50px;
+    text-decoration: none;
+    font-size: 35px;
+    width: 500px;
+
+}
+
+.mehrmarstext1 {
+    color: white;
+    position: absolute;
+    top: 300px;
+    left: 750px;
+    text-decoration: none;
+    font-size: 35px;
+    width: 500px;
+}
+
+
+.mehrmarstext2 {
+    color: white;
+    position: absolute;
+    top: 600px;
+    right: 650px;
+    text-decoration: none;
+    font-size: 35px;
+    width: 500px;
+}
+
+.mehrmarstext3 {
+    color: white;
+    position: absolute;
+    top: 800px;
+    right: 50px;
+    text-decoration: none;
+    font-size: 35px;
+    width: 500px;
+}
+
+.mehrüberdenmarslink1 {
+    color: white;
+    position: absolute;
+    left: 50px;
+    top: 1200px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+/*-------ISS-------*/
+.isstext {
+    color: white;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    text-decoration: none;
+    font-size: 35px;
+    width: 900px;
+}
+
+.isstext1 {
+    color: white;
+    position: absolute;
+    top: 300px;
+    right: 50px;
+    text-decoration: none;
+    font-size: 35px;
+    width: 700px;
+    text-align: right;
+}
+
+.mehrüberisslink {
+    color: white;
+    position: absolute;
+    right: 50px;
+    top: 1200px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.mehrüberisslink1 {
+    color: white;
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.mehrisstext {
+    color: white;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    text-decoration: none;
+    font-size: 35px;
+    width: 1200px;
+}
+
+.mehrisstext1 {
+    color: white;
+    position: absolute;
+    bottom: 100px;
+    right: 50px;
+    text-decoration: none;
+    font-size: 35px;
+    width: 1300px;
+    text-align: right;
+}
+
+.mehrüberisslink2 {
+    color: white;
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.nochmehrisstext {
+    color: white;
+    position: absolute;
+    top: 100px;
+    left: 350px;
+    text-decoration: none;
+    font-size: 55px;
+    width: 1300px;
+    text-align: right;
+}
+
+.nochmehrisstext1 {
+    color: white;
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.astronautenlink {
+    color: rgb(0, 0, 0);
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.astronautentext {
+    color: white;
+    position: absolute;
+    left: 50px;
+    font-size: 35px;
+    text-decoration: none;
+    
+}
+
+.astronautentext1 {
+    color: white;
+    position: absolute;
+    left: 50px;
+    font-size: 35px;
+    text-decoration: none;
+    top: 200px;
+}
+
+.astronautentext2 {
+    color: white;
+    position: absolute;
+    left: 50px;
+    font-size: 35px;
+    text-decoration: none;
+    top: 350px;
+}
+
+.astronautentext3 {
+    color: white;
+    position: absolute;
+    left: 50px;
+    font-size: 35px;
+    text-decoration: none;
+    top: 550px;
+}
+
+.astronautentext4 {
+    color: white;
+    position: absolute;
+    left: 50px;
+    font-size: 35px;
+    text-decoration: none;
+    top: 750px;
 }
