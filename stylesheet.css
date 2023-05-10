@@ -19,3 +19,36 @@ h1{
 .navlinks:hover{
     color: rgb(47, 147, 147);
 }
+
+.container{
+    
+    
+    
+    
+}
+
+.begtext{
+    position: absolute;
+    left: 50px;
+    top: 100px;
+    color: white;
+    text-align: center;
+    font-size: 35px;
+  
+}
+.begtext1{
+    position: absolute;
+    left: 50px;
+    top: 350px;
+    color: white;
+    width: 750px;
+    font-size: 35px;
+}
+.begtext2{
+    position: absolute;
+    right: 50px;
+    top: 800px;
+    color: white;
+    width: 750px;
+    font-size: 35px;
+}
