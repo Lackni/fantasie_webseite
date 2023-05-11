@@ -151,8 +151,8 @@
 }
 
 .navlinks:hover {
-    color: rgb(47, 147, 147);
-    font-size: 40px;
+    color: rgb(174, 168, 168);
+    font-size: 30px;
 }
 
 /*--------------Begrüßung-------------*/
@@ -203,6 +203,11 @@
     text-decoration: none;
     justify-content: space-around;
     font-size: 45px;
+}
+
+.planeten:hover{
+    font-size: 50px;
+    color: rgb(174, 168, 168);
 }
 
 /*--------------Saturn-------------*/
