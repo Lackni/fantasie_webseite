@@ -249,6 +249,10 @@
     font-size: 30px;
 }
 
+.mehrübersaturnlink:hover{
+    color: rgb(174, 168, 168);
+    font-size: 35px;
+    }
 /*--------------Saturnbilder-------------*/
 
 .mehrsaturntext {
@@ -303,6 +307,10 @@
     font-size: 30px;
 }
 
+.mehrübersaturnlink1:hover{
+    color: rgb(174, 168, 168);
+    font-size: 35px;
+    }
 /*--------------Mond-------------*/
 .mondtext {
     color: white;
@@ -375,6 +383,10 @@
     font-size: 30px;
 }
 
+.mehrüberdenmondlink:hover{
+    color: rgb(174, 168, 168);
+    font-size: 35px;
+    }
 /*------mehr Mond-------*/
 .mehrüberdenmondlink1 {
     color: white;
@@ -384,6 +396,11 @@
     text-decoration: none;
     font-size: 30px;
 }
+
+.mehrüberdenmondlink1:hover{
+    color: rgb(174, 168, 168);
+    font-size: 35px;
+    }
 
 .mehrmondtext {
     color: white;
@@ -450,6 +467,11 @@
     font-size: 30px;
 }
 
+.mehrüberdenmarslink:hover{
+    color: rgb(174, 168, 168);
+    font-size: 35px;
+    }
+
 /*--------Mehr Mars-----*/
 .containermehrmars {
     justify-content: space-between;
@@ -507,6 +529,10 @@
     font-size: 30px;
 }
 
+.mehrüberdenmarslink1:hover{
+    color: rgb(174, 168, 168);
+    font-size: 35px;
+    }
 /*-------ISS-------*/
 .isstext {
     color: white;
@@ -538,6 +564,11 @@
     font-size: 30px;
 }
 
+.mehrüberisslink:hover{
+    color: rgb(174, 168, 168);
+    font-size: 35px;
+    }
+
 .mehrüberisslink1 {
     color: white;
     position: absolute;
@@ -547,6 +578,10 @@
     font-size: 30px;
 }
 
+.mehrüberisslink1:hover{
+    color: rgb(174, 168, 168);
+    font-size: 35px;
+    }
 .mehrisstext {
     color: white;
     position: absolute;
@@ -577,6 +612,11 @@
     font-size: 30px;
 }
 
+.mehrüberisslink2:hover{
+color: rgb(174, 168, 168);
+font-size: 35px;
+}
+
 .nochmehrisstext {
     color: white;
     position: absolute;
@@ -604,6 +644,11 @@
     bottom: 50px;
     text-decoration: none;
     font-size: 30px;
+}
+
+.astronautenlink:hover{
+color: rgb(174, 168, 168);
+font-size: 35px;
 }
 
 .astronautentext {
