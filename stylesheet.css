@@ -732,7 +732,7 @@ font-size: 35px;
     top: 100px;
     text-align: right;
 }
-.linkzuerde2{
+.zuerdeteil2{
     color: rgb(255, 255, 255);
     position: absolute;
     right: 50px;
@@ -814,7 +814,7 @@ font-size: 35px;
     text-align: center;
 }
 
-.linkzuerde1{
+.zuerdeteil1{
     color: rgb(255, 255, 255);
     position: absolute;
     left: 50px;
@@ -823,7 +823,7 @@ font-size: 35px;
     font-size: 30px;
 }
 
-.linkzuerde3{
+.zuerdeteil3{
     color: rgb(255, 255, 255);
     position: absolute;
     right: 50px;
@@ -832,5 +832,17 @@ font-size: 35px;
     font-size: 30px;
 }
 .erde3{
+    background-image: url(img/bg-erde-3.jpg);
+    background-position: center;
+    background-position-y:unset;
+    background-size: cover; 
+}
 
+.zurückzuerdeteil2{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+    text-decoration: none;
+    font-size: 30px;
 }
