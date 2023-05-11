@@ -703,3 +703,134 @@ font-size: 35px;
     top: 670px;
     text-align: center;
 }
+/*--------Erde--------*/
+.erde{
+    background-image: url(img/bg-erde.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+.erdetext{
+    color: white;
+    position: absolute;
+    width: 600px;
+    left: 50px;
+    font-size: 30px;
+    text-decoration: none;
+    top: 100px;
+    text-align: left;
+}
+
+.erdetext1{
+    color: white;
+    position: absolute;
+    width: 600px;
+    right: 50px;
+    font-size: 30px;
+    text-decoration: none;
+    top: 100px;
+    text-align: right;
+}
+.linkzuerde2{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+    text-decoration: none;
+    font-size: 30px;
+}
+.erde2{
+    background-image: url(img/bg-erde3.jpg);
+    background-position: center;
+    background-position-y:unset;
+    background-size: cover;    
+}
+
+.erdestruktur{
+    color: white;
+    position: absolute;
+    width: 800px;
+    left: 50px;
+    font-size: 30px;
+    text-decoration: none;
+    top: 100px;
+    text-align: left;
+}
+
+.erdegeologie{
+    color: white;
+    position: absolute;
+    width: 800px;
+    left: 900px;
+    font-size: 30px;
+    text-decoration: none;
+    top: 400px;
+    text-align: center;
+}
+
+
+.erdeklima{
+    color: white;
+    position: absolute;
+    width: 800px;
+    left: 50px;
+    font-size: 30px;
+    text-decoration: none;
+    top: 700px;
+    text-align: left;
+}
+
+.erdeoekosystem{
+    color: white;
+    position: absolute;
+    width: 800px;
+    right: 50px;
+    font-size: 30px;
+    text-decoration: none;
+    top: 100px;
+    text-align: right;
+}
+
+.erdeerforschung{
+    color: white;
+    position: absolute;
+    width: 800px;
+    right: 50px;
+    font-size: 30px;
+    text-decoration: none;
+    top: 700px;
+    text-align: right;
+}
+
+.erdeaspekte{
+    color: white;
+    position: absolute;
+    
+    right: 50px;
+    font-size: 30px;
+    text-decoration: none;
+    top: 1000px;
+    text-align: center;
+}
+
+.linkzuerde1{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.linkzuerde3{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+    text-decoration: none;
+    font-size: 30px;
+}
+.erde3{
+
+}
