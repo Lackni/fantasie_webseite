@@ -478,11 +478,11 @@
 .isstext {
     color: white;
     position: absolute;
-    top: 100px;
+    top: 150px;
     left: 50px;
     text-decoration: none;
     font-size: 35px;
-    width: 900px;
+    width: 1700px;
 }
 
 .isstext1 {
@@ -521,7 +521,7 @@
     left: 50px;
     text-decoration: none;
     font-size: 35px;
-    width: 1200px;
+    width: 1300px;
 }
 
 .mehrisstext1 {
@@ -619,7 +619,7 @@
     color: white;
     position: absolute;
     width: 400px;
-    right: 50px;
+    left: 1950px;
     font-size: 20px;
     text-decoration: none;
     top: 670px;
