@@ -1,3 +1,89 @@
+.astronauten {/*astronauten*/
+    background-image: url(img/bg-iss-5.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+.begruessung {/*begrüßung*/
+    background-image: url(img/eclipse-g78ca531e9_1280.jpg);
+    background-size: cover;
+    margin: 0;
+}
+
+.index {/*index*/
+    background-image: url(img/bg-index.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+.iss {/*iss*/
+    background-image: url(img/bg-iss11.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+.issbilder {/*issbilder*/
+    background-image: url(img/bg-iss-4.jpg);
+    background-size: cover;
+    margin: 0;
+}
+
+.issbilder2 {/*issbilder2*/
+    background-image: url(img/bg-iss-5.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+.mars {/*mars*/
+    background-image: url(img/bg-mars.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+.marsbilder {/*marsbilder*/
+    background-image: url(img/bg-mehr-mars.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+.mond {/*mond*/
+    background-image: url(img/bg-mond.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+.mondbilder {/*mondbilder*/
+    background-image: url(img/bg-mehrmond.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+.saturn {/*saturn*/
+    background-image: url(img/background-saturn.jpg);
+    background-size: cover;
+    margin: 0;
+}
+
+.saturnbilder {/*saturnbilder*/
+    background-image: url(img/bg-mehrzustaurn.jpg);
+    background-size: cover;
+    margin: 0;
+}
+
+.weltraumbahnhof {/*weltraumbahnhof*/
+    background-image: url(img/Background-Projekte.jpg);
+    background-size: cover;
+    margin: 0; 
+}
+
 .navlinks {
     padding: 16px;
     display: flex;
@@ -452,7 +538,7 @@ h1 {
     left: 50px;
     font-size: 35px;
     text-decoration: none;
-    
+
 }
 
 .astronautentext1 {
