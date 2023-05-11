@@ -47,6 +47,15 @@
     margin: 0;
 }
 
+.überschriftbegrüssung{
+    color: white;
+    position: absolute;
+    display: flex;
+    left: 655px;
+    font-size: 55px;
+    top: 50px;
+}
+
 .index {
     /*index*/
     background-image: url(img/bg-index.jpg);
@@ -177,14 +186,14 @@
     text-align: end;
 }
 
-.mond {
+/*.mond {
     padding: 16px;
     display: flex;
     color: white;
     text-decoration: none;
     justify-content: space-around;
     font-size: 25px;
-}
+}*/
 
 .planeten {
     margin-top: 150px;
@@ -203,6 +212,7 @@
     right: 50px;
     color: white;
     font-size: 40px;
+    text-align: center;
 }
 
 .saturntext1 {
@@ -212,6 +222,17 @@
     color: white;
     font-size: 30px;
     width: 800px;
+    text-align: left;
+}
+
+.saturntext2 {
+    position: absolute;
+    top: 850px;
+    right: 50px;
+    color: white;
+    font-size: 30px;
+    width: 800px;
+    text-align: right;
 }
 
 .mehrübersaturnlink {
@@ -232,6 +253,7 @@
     right: 50px;
     text-decoration: none;
     font-size: 35px;
+    text-align: center;
 }
 
 .mehrsaturntext1 {
@@ -242,6 +264,7 @@
     right: 50px;
     text-decoration: none;
     font-size: 35px;
+    text-align: center;
 }
 
 .mehrsaturntext2 {
@@ -252,6 +275,7 @@
     right: 50px;
     text-decoration: none;
     font-size: 35px;
+    text-align: center;
 }
 
 .mehrsaturntext3 {
@@ -262,12 +286,13 @@
     right: 50px;
     text-decoration: none;
     font-size: 35px;
+    text-align: center;
 }
 
 .mehrübersaturnlink1 {
     color: white;
     position: absolute;
-    right: 50px;
+    left: 50px;
     top: 1200px;
     text-decoration: none;
     font-size: 30px;
@@ -282,6 +307,7 @@
     right: 50px;
     text-decoration: none;
     font-size: 30px;
+    text-align: center;
 }
 
 .mondtext1 {
@@ -293,9 +319,21 @@
     width: 600px;
     text-decoration: none;
     font-size: 30px;
+    text-align: left;
 }
 
 .mondtext2 {
+    color: white;
+    position: absolute;
+    top: 640px;
+    width: 450px;
+    left: 50px;
+    text-decoration: none;
+    font-size: 30px;
+    text-align: left;
+}
+
+.mondtext3 {
     color: white;
     position: absolute;
     top: 300px;
@@ -306,7 +344,7 @@
     text-align: right;
 }
 
-.mondtext3 {
+.mondtext4 {
     color: white;
     position: absolute;
     top: 340px;
@@ -315,17 +353,6 @@
     text-decoration: none;
     font-size: 30px;
     text-align: right;
-}
-
-.mondtext4 {
-    color: white;
-    position: absolute;
-    top: 640px;
-    width: 450px;
-    left: 50px;
-    text-decoration: none;
-    font-size: 30px;
-    text-align: left;
 }
 
 .eagle {
