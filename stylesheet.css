@@ -47,7 +47,7 @@
     margin: 0;
 }
 
-.überschriftbegrüssung{
+.überschriftbegrüssung {
     color: white;
     position: absolute;
     display: flex;
@@ -205,7 +205,7 @@
     font-size: 45px;
 }
 
-.planeten:hover{
+.planeten:hover {
     font-size: 50px;
     color: rgb(174, 168, 168);
 }
@@ -249,10 +249,11 @@
     font-size: 30px;
 }
 
-.mehrübersaturnlink:hover{
+.mehrübersaturnlink:hover {
     color: rgb(174, 168, 168);
     font-size: 35px;
-    }
+}
+
 /*--------------Saturnbilder-------------*/
 
 .mehrsaturntext {
@@ -307,10 +308,11 @@
     font-size: 30px;
 }
 
-.mehrübersaturnlink1:hover{
+.mehrübersaturnlink1:hover {
     color: rgb(174, 168, 168);
     font-size: 35px;
-    }
+}
+
 /*--------------Mond-------------*/
 .mondtext {
     color: white;
@@ -383,10 +385,11 @@
     font-size: 30px;
 }
 
-.mehrüberdenmondlink:hover{
+.mehrüberdenmondlink:hover {
     color: rgb(174, 168, 168);
     font-size: 35px;
-    }
+}
+
 /*------mehr Mond-------*/
 .mehrüberdenmondlink1 {
     color: white;
@@ -397,10 +400,10 @@
     font-size: 30px;
 }
 
-.mehrüberdenmondlink1:hover{
+.mehrüberdenmondlink1:hover {
     color: rgb(174, 168, 168);
     font-size: 35px;
-    }
+}
 
 .mehrmondtext {
     color: white;
@@ -467,10 +470,10 @@
     font-size: 30px;
 }
 
-.mehrüberdenmarslink:hover{
+.mehrüberdenmarslink:hover {
     color: rgb(174, 168, 168);
     font-size: 35px;
-    }
+}
 
 /*--------Mehr Mars-----*/
 .containermehrmars {
@@ -529,10 +532,11 @@
     font-size: 30px;
 }
 
-.mehrüberdenmarslink1:hover{
+.mehrüberdenmarslink1:hover {
     color: rgb(174, 168, 168);
     font-size: 35px;
-    }
+}
+
 /*-------ISS-------*/
 .isstext {
     color: white;
@@ -564,10 +568,10 @@
     font-size: 30px;
 }
 
-.mehrüberisslink:hover{
+.mehrüberisslink:hover {
     color: rgb(174, 168, 168);
     font-size: 35px;
-    }
+}
 
 .mehrüberisslink1 {
     color: white;
@@ -578,10 +582,11 @@
     font-size: 30px;
 }
 
-.mehrüberisslink1:hover{
+.mehrüberisslink1:hover {
     color: rgb(174, 168, 168);
     font-size: 35px;
-    }
+}
+
 .mehrisstext {
     color: white;
     position: absolute;
@@ -612,9 +617,9 @@
     font-size: 30px;
 }
 
-.mehrüberisslink2:hover{
-color: rgb(174, 168, 168);
-font-size: 35px;
+.mehrüberisslink2:hover {
+    color: rgb(174, 168, 168);
+    font-size: 35px;
 }
 
 .nochmehrisstext {
@@ -646,9 +651,9 @@ font-size: 35px;
     font-size: 30px;
 }
 
-.astronautenlink:hover{
-color: rgb(174, 168, 168);
-font-size: 35px;
+.astronautenlink:hover {
+    color: rgb(174, 168, 168);
+    font-size: 35px;
 }
 
 .astronautentext {
@@ -703,15 +708,16 @@ font-size: 35px;
     top: 670px;
     text-align: center;
 }
+
 /*--------Erde--------*/
-.erde{
+.erde {
     background-image: url(img/bg-erde.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
 }
 
-.erdetext{
+.erdetext {
     color: white;
     position: absolute;
     width: 600px;
@@ -722,7 +728,7 @@ font-size: 35px;
     text-align: left;
 }
 
-.erdetext1{
+.erdetext1 {
     color: white;
     position: absolute;
     width: 600px;
@@ -732,7 +738,8 @@ font-size: 35px;
     top: 100px;
     text-align: right;
 }
-.zuerdeteil2{
+
+.zuerdeteil2 {
     color: rgb(255, 255, 255);
     position: absolute;
     right: 50px;
@@ -740,14 +747,15 @@ font-size: 35px;
     text-decoration: none;
     font-size: 30px;
 }
-.erde2{
+
+.erde2 {
     background-image: url(img/bg-erde3.jpg);
     background-position: center;
-    background-position-y:unset;
-    background-size: cover;    
+    background-position-y: unset;
+    background-size: cover;
 }
 
-.erdestruktur{
+.erdestruktur {
     color: white;
     position: absolute;
     width: 800px;
@@ -758,7 +766,7 @@ font-size: 35px;
     text-align: left;
 }
 
-.erdegeologie{
+.erdegeologie {
     color: white;
     position: absolute;
     width: 800px;
@@ -770,7 +778,7 @@ font-size: 35px;
 }
 
 
-.erdeklima{
+.erdeklima {
     color: white;
     position: absolute;
     width: 800px;
@@ -781,7 +789,7 @@ font-size: 35px;
     text-align: left;
 }
 
-.erdeoekosystem{
+.erdeoekosystem {
     color: white;
     position: absolute;
     width: 800px;
@@ -792,7 +800,7 @@ font-size: 35px;
     text-align: right;
 }
 
-.erdeerforschung{
+.erdeerforschung {
     color: white;
     position: absolute;
     width: 800px;
@@ -803,10 +811,10 @@ font-size: 35px;
     text-align: right;
 }
 
-.erdeaspekte{
+.erdeaspekte {
     color: white;
     position: absolute;
-    
+
     right: 50px;
     font-size: 30px;
     text-decoration: none;
@@ -814,7 +822,7 @@ font-size: 35px;
     text-align: center;
 }
 
-.zuerdeteil1{
+.zuerdeteil1 {
     color: rgb(255, 255, 255);
     position: absolute;
     left: 50px;
@@ -823,7 +831,7 @@ font-size: 35px;
     font-size: 30px;
 }
 
-.zuerdeteil3{
+.zuerdeteil3 {
     color: rgb(255, 255, 255);
     position: absolute;
     right: 50px;
@@ -831,18 +839,84 @@ font-size: 35px;
     text-decoration: none;
     font-size: 30px;
 }
-.erde3{
+
+.erde3 {
     background-image: url(img/bg-erde-3.jpg);
     background-position: center;
-    background-position-y:unset;
-    background-size: cover; 
+    background-position-y: unset;
+    background-size: cover;
 }
 
-.zurückzuerdeteil2{
+.zurückzuerdeteil2 {
     color: rgb(255, 255, 255);
     position: absolute;
     left: 50px;
     bottom: 50px;
     text-decoration: none;
     font-size: 30px;
+}
+
+.dienatur {
+    position: absolute;
+    color: white;
+    left: 450px;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.esgibtmil {
+    position: absolute;
+    color: white;
+    right: 300px;
+    left: 300px;
+    top: 250px;
+    font-size: 35px;
+    text-align: center;
+}
+
+.dietierwelt {
+    position: absolute;
+    color: white;
+    right: 350px;
+    left: 350px;
+    top: 450px;
+    font-size: 35px;
+    text-align: center;
+}
+
+.klimawandel {
+    position: absolute;
+    color: white;
+    right: 250px;
+    left: 250px;
+    top: 700px;
+    font-size: 35px;
+    text-align: center;
+}
+
+.esgibtauch {
+    position: absolute;
+    color: white;
+    right: 100px;
+    left: 100px;
+    top: 850px;
+    font-size: 35px;
+    text-align: center;
+}
+
+.insgesamt {
+    position: absolute;
+    color: white;
+    left: 25px;
+    right: 25px;
+    top: 1000px;
+    font-size: 35px;
+    text-align: center;
+}
+
+.voegel {
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+
 }
