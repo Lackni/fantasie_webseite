@@ -1,87 +1,134 @@
-.astronauten {/*astronauten*/
-    background-image: url(img/bg-iss-5.jpeg);
+.astronauten {
+    /*astronauten*/
+    background-color: black;
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
 }
 
-.begruessung {/*begrüßung*/
+.merbold {
+    position: absolute;
+    top: 180px;
+    left: 50px;
+    height: 500px;
+    width: 396px;
+}
+
+.reiter {
+    position: absolute;
+    top: 180px;
+    left: 700px;
+    height: 500px;
+    width: 396px;
+}
+
+.gerst {
+    position: absolute;
+    top: 180px;
+    left: 1350px;
+    height: 500px;
+    width: 396px;
+}
+
+.maurer {
+    position: absolute;
+    top: 180px;
+    left: 1950px;
+    height: 500px;
+    width: 396px;
+
+
+}
+
+.begruessung {
+    /*begrüßung*/
     background-image: url(img/eclipse-g78ca531e9_1280.jpg);
     background-size: cover;
     margin: 0;
 }
 
-.index {/*index*/
+.index {
+    /*index*/
     background-image: url(img/bg-index.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
 }
 
-.iss {/*iss*/
+.iss {
+    /*iss*/
     background-image: url(img/bg-iss11.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
 }
 
-.issbilder {/*issbilder*/
+.issbilder {
+    /*issbilder*/
     background-image: url(img/bg-iss-4.jpg);
     background-size: cover;
     margin: 0;
 }
 
-.issbilder2 {/*issbilder2*/
+.issbilder2 {
+    /*issbilder2*/
     background-image: url(img/bg-iss-5.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
 }
 
-.mars {/*mars*/
+.mars {
+    /*mars*/
     background-image: url(img/bg-mars.png);
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
 }
 
-.marsbilder {/*marsbilder*/
+.marsbilder {
+    /*marsbilder*/
     background-image: url(img/bg-mehr-mars.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
 }
 
-.mond {/*mond*/
+.mond {
+    /*mond*/
     background-image: url(img/bg-mond.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
 }
 
-.mondbilder {/*mondbilder*/
+.mondbilder {
+    /*mondbilder*/
     background-image: url(img/bg-mehrmond.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
 }
 
-.saturn {/*saturn*/
+.saturn {
+    /*saturn*/
     background-image: url(img/background-saturn.jpg);
     background-size: cover;
     margin: 0;
 }
 
-.saturnbilder {/*saturnbilder*/
+.saturnbilder {
+    /*saturnbilder*/
     background-image: url(img/bg-mehrzustaurn.jpg);
     background-size: cover;
     margin: 0;
 }
 
-.weltraumbahnhof {/*weltraumbahnhof*/
+.weltraumbahnhof {
+    /*weltraumbahnhof*/
     background-image: url(img/Background-Projekte.jpg);
     background-size: cover;
-    margin: 0; 
+    margin: 0;
 }
 
 .navlinks {
@@ -96,13 +143,6 @@
 .navlinks:hover {
     color: rgb(47, 147, 147);
     font-size: 40px;
-}
-
-h1 {
-    position: absolute;
-    font-size: 40px;
-    left: 900px;
-    text-decoration: underline;
 }
 
 /*--------------Begrüßung-------------*/
@@ -236,6 +276,7 @@ h1 {
 .mondtext {
     color: white;
     position: absolute;
+    top: 100px;
     left: 50px;
     right: 50px;
     text-decoration: none;
@@ -467,7 +508,7 @@ h1 {
 .mehrüberisslink1 {
     color: white;
     position: absolute;
-    left: 50px;
+    left: 1100px;
     bottom: 50px;
     text-decoration: none;
     font-size: 30px;
@@ -535,7 +576,7 @@ h1 {
 .astronautentext {
     color: white;
     position: absolute;
-    left: 50px;
+    left: 150px;
     font-size: 35px;
     text-decoration: none;
 
@@ -544,35 +585,43 @@ h1 {
 .astronautentext1 {
     color: white;
     position: absolute;
+    width: 400px;
     left: 50px;
-    font-size: 35px;
+    font-size: 20px;
     text-decoration: none;
-    top: 200px;
+    top: 670px;
+    text-align: center;
 }
 
 .astronautentext2 {
     color: white;
     position: absolute;
-    left: 50px;
-    font-size: 35px;
+    width: 400px;
+    left: 700px;
+    font-size: 20px;
     text-decoration: none;
-    top: 350px;
+    top: 670px;
+    text-align: center;
 }
 
 .astronautentext3 {
     color: white;
     position: absolute;
-    left: 50px;
-    font-size: 35px;
+    width: 400px;
+    left: 1350px;
+    font-size: 20px;
     text-decoration: none;
-    top: 550px;
+    top: 670px;
+    text-align: center;
 }
 
 .astronautentext4 {
     color: white;
     position: absolute;
-    left: 50px;
-    font-size: 35px;
+    width: 400px;
+    right: 50px;
+    font-size: 20px;
     text-decoration: none;
-    top: 750px;
+    top: 670px;
+    text-align: center;
 }
