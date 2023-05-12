@@ -140,6 +140,12 @@
     font-size: 35px;
 }
 
+.audiosaturn{
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+}
+
 /***************************************************************************Saturnbilder*/
 .saturnbilder {
     /*saturnbilder*/
@@ -203,6 +209,12 @@
 .zurückzusaturn1:hover {
     color: rgb(174, 168, 168);
     font-size: 35px;
+}
+
+.audiosaturn2{
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
 }
 
 /**********************************************************************************************Mond*/
@@ -273,7 +285,7 @@
 }
 
 
-.eagle {
+.audioeagle {
     position: absolute;
     left: 125px;
     top: 600px;
@@ -327,8 +339,7 @@
     width: 1300px;
 }
 
-/******************************************************************************Mond Audio*/
-.eagle1 {
+.audio-smallstep {
     position: absolute;
     left: 800px;
     top: 1200px;
@@ -398,6 +409,12 @@
     font-size: 35px;
 }
 
+.audiomars{
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+}
+
 /**********************************************************************************Mars 2*/
 .marsbilder {
     /*marsbilder*/
@@ -465,6 +482,12 @@
 .zurückzumars1:hover {
     color: rgb(174, 168, 168);
     font-size: 35px;
+}
+
+.audiomars2{
+    position: absolute;
+    right:50px;
+    top: 150px;
 }
 
 /**********************************************************************************ISS*/
@@ -711,7 +734,7 @@
     top: 180px;
     left: 1950px;
     height: 500px;
-    
+
     width: 396px;
 }
 
