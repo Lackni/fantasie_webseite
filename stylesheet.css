@@ -240,16 +240,16 @@
     text-align: right;
 }
 
-.mehrübersaturnlink {
+.zusaturn2 {
     color: white;
     position: absolute;
     right: 50px;
-    top: 1200px;
+    bottom: 50px;
     text-decoration: none;
     font-size: 30px;
 }
 
-.mehrübersaturnlink:hover {
+.zusaturn2:hover {
     color: rgb(174, 168, 168);
     font-size: 35px;
 }
@@ -299,7 +299,7 @@
     text-align: center;
 }
 
-.mehrübersaturnlink1 {
+.zurückzusaturn1 {
     color: white;
     position: absolute;
     left: 50px;
@@ -308,7 +308,7 @@
     font-size: 30px;
 }
 
-.mehrübersaturnlink1:hover {
+.zurückzusaturn1:hover {
     color: rgb(174, 168, 168);
     font-size: 35px;
 }
@@ -376,31 +376,31 @@
     top: 600px;
 }
 
-.mehrüberdenmondlink {
+.zumond2 {
     color: white;
     position: absolute;
     right: 50px;
-    top: 1200px;
+    bottom: 50px;
     text-decoration: none;
     font-size: 30px;
 }
 
-.mehrüberdenmondlink:hover {
+.zumond2:hover {
     color: rgb(174, 168, 168);
     font-size: 35px;
 }
 
 /*------mehr Mond-------*/
-.mehrüberdenmondlink1 {
+.zurückzumond1 {
     color: white;
     position: absolute;
     left: 50px;
-    top: 1200px;
+    bottom: 50px;
     text-decoration: none;
     font-size: 30px;
 }
 
-.mehrüberdenmondlink1:hover {
+.zurückzumond1:hover {
     color: rgb(174, 168, 168);
     font-size: 35px;
 }
@@ -461,16 +461,16 @@
     font-size: 35px;
 }
 
-.mehrüberdenmarslink {
+.zumars2 {
     color: white;
     position: absolute;
     right: 50px;
-    top: 1200px;
+    bottom: 50px;
     text-decoration: none;
     font-size: 30px;
 }
 
-.mehrüberdenmarslink:hover {
+.zumars2:hover {
     color: rgb(174, 168, 168);
     font-size: 35px;
 }
@@ -523,16 +523,16 @@
     width: 500px;
 }
 
-.mehrüberdenmarslink1 {
+.zurückzumars1 {
     color: white;
     position: absolute;
     left: 50px;
-    top: 1200px;
+    bottom: 50px;
     text-decoration: none;
     font-size: 30px;
 }
 
-.mehrüberdenmarslink1:hover {
+.zurückzumars1:hover {
     color: rgb(174, 168, 168);
     font-size: 35px;
 }
@@ -559,7 +559,7 @@
     text-align: right;
 }
 
-.mehrüberisslink {
+.weiterzuiss2 {
     color: white;
     position: absolute;
     right: 50px;
@@ -568,12 +568,12 @@
     font-size: 30px;
 }
 
-.mehrüberisslink:hover {
+.weiterzuiss2:hover {
     color: rgb(174, 168, 168);
     font-size: 35px;
 }
 
-.mehrüberisslink1 {
+.zurückzuiss1 {
     color: white;
     position: absolute;
     left: 50px;
@@ -582,8 +582,21 @@
     font-size: 30px;
 }
 
-.mehrüberisslink1:hover {
+.zurückzuiss1:hover {
     color: rgb(174, 168, 168);
+    font-size: 35px;
+}
+
+.zurückzuiss2 {
+    color: white;
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+    text-decoration: none;
+    font-size: 30px;
+}
+.zurückzuiss2:hover{
+    color: rgb(255, 255, 255);
     font-size: 35px;
 }
 
@@ -608,7 +621,7 @@
     text-align: right;
 }
 
-.mehrüberisslink2 {
+.zudenastronautenderiss {
     color: white;
     position: absolute;
     right: 50px;
@@ -617,7 +630,7 @@
     font-size: 30px;
 }
 
-.mehrüberisslink2:hover {
+.zudenastronautenderiss:hover {
     color: rgb(174, 168, 168);
     font-size: 35px;
 }
@@ -626,7 +639,7 @@
     color: white;
     position: absolute;
     top: 100px;
-    left: 350px;
+    left: 300px;
     text-decoration: none;
     font-size: 55px;
     width: 1300px;
@@ -720,7 +733,7 @@
 .erdetext {
     color: white;
     position: absolute;
-    width: 600px;
+    width: 900px;
     left: 50px;
     font-size: 30px;
     text-decoration: none;
@@ -731,7 +744,7 @@
 .erdetext1 {
     color: white;
     position: absolute;
-    width: 600px;
+    width: 900px;
     right: 50px;
     font-size: 30px;
     text-decoration: none;
@@ -841,19 +854,38 @@
 }
 
 .erde3 {
-    background-image: url(img/bg-erde-3.jpg);
+    background-image: url(img/bg-erde-3-kontinente.jpg);
     background-position: center;
     background-position-y: unset;
     background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.weiterzuerdeteil4 {
+    color: rgb(0, 0, 0);
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+    text-decoration: none;
+    font-size: 30px;
 }
 
 .zurückzuerdeteil2 {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     position: absolute;
     left: 50px;
     bottom: 50px;
     text-decoration: none;
     font-size: 30px;
+}
+
+.erde4 {
+    background-image: url(img/bg-erde-3.jpg);
+    background-position: center;
+    background-position-y: unset;
+    background-size: cover;
+    background-color: aqua;
 }
 
 .dienatur {
@@ -916,7 +948,7 @@
 
 .voegel {
     position: absolute;
-    right: 50px;
+    left: 1125px;
     bottom: 50px;
 
 }
