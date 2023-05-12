@@ -152,7 +152,9 @@
 
 .navlinks:hover {
     color: rgb(174, 168, 168);
-    font-size: 30px;
+    font-size: 26px;
+
+
 }
 
 /*--------------Begrüßung-------------*/
@@ -202,12 +204,12 @@
     color: white;
     text-decoration: none;
     justify-content: space-around;
-    font-size: 45px;
+    font-size: 25px;
 }
 
 .planeten:hover {
-    font-size: 50px;
     color: rgb(174, 168, 168);
+    font-size: 26px;
 }
 
 /*--------------Saturn-------------*/
@@ -595,7 +597,8 @@
     text-decoration: none;
     font-size: 30px;
 }
-.zurückzuiss2:hover{
+
+.zurückzuiss2:hover {
     color: rgb(255, 255, 255);
     font-size: 35px;
 }
