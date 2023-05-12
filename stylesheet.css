@@ -2,9 +2,22 @@
     background-image: url(img/bg-index.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 0;
+    padding: 0;
 }
-
+.herzlichwillkommen{
+    color: white;
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    
+}
+.herzlichwillkommen:hover{
+    color: white;
+    font-size: 55px;
+    
+}
 /************************************************************************************NavBar*/
 .navlinks {
     padding: 16px;
@@ -24,7 +37,7 @@
 .begruessung {
     background-image: url(img/eclipse-g78ca531e9_1280.jpg);
     background-size: cover;
-    margin: 0;
+    padding: 0;
 }
 
 .überschriftbegrüssung {
@@ -70,7 +83,7 @@
     /*weltraumbahnhof*/
     background-image: url(img/Background-Projekte.jpg);
     background-size: cover;
-    margin: 0;
+    padding: 0;
 }
 
 .planeten {
@@ -93,7 +106,7 @@
     /*saturn*/
     background-image: url(img/background-saturn.jpg);
     background-size: cover;
-    margin: 0;
+    padding: 0;
 }
 
 
@@ -151,7 +164,7 @@
     /*saturnbilder*/
     background-image: url(img/bg-mehrzustaurn.jpg);
     background-size: cover;
-    margin: 0;
+    padding: 0;
 }
 
 .mehrsaturntext {
@@ -224,7 +237,7 @@
     background-image: url(img/bg-mond.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 0;
+    padding: 0;
 }
 
 
@@ -313,7 +326,7 @@
     background-image: url(img/bg-mehrmond.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 0;
+    padding: 0;
 }
 
 .zurückzumond1 {
@@ -351,7 +364,7 @@
     background-image: url(img/bg-mars.png);
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 0;
+    padding: 0;
 }
 
 
@@ -421,7 +434,7 @@
     background-image: url(img/bg-mehr-mars.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 0;
+    padding: 0;
 }
 
 .containermehrmars {
@@ -497,7 +510,7 @@
     background-image: url(img/bg-iss11.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 0;
+    padding: 0;
 }
 
 .isstext {
@@ -542,7 +555,7 @@
     background-image: url(img/bg-iss-4.jpg);
     height: 100vh;
     background-size: cover;
-    margin: 0;
+    padding: 0;
 }
 
 .mehrisstext {
@@ -601,7 +614,7 @@
     background-image: url(img/bg-iss-5.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 0;
+    padding: 0;
 }
 
 .weltraumspaziergang {
