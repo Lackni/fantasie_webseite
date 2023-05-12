@@ -4,20 +4,23 @@
     background-size: cover;
     padding: 0;
 }
-.herzlichwillkommen{
+
+.herzlichwillkommen {
     color: white;
     font-size: 45px;
+    margin-top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    
 }
-.herzlichwillkommen:hover{
-    color: white;
-    font-size: 55px;
-    
+
+.herzlichwillkommen:hover {
+    color: rgb(174, 168, 168);
+    font-size: 46px;
+
 }
+
 /************************************************************************************NavBar*/
 .navlinks {
     padding: 16px;
@@ -84,6 +87,46 @@
     background-image: url(img/Background-Projekte.jpg);
     background-size: cover;
     padding: 0;
+}
+
+.nav_weltraumbahnhof {
+    color: rgb(255, 255, 255);
+    font-size: 45px;
+    margin-top: 50px;
+    margin-left: 1090px;
+    display: flex;
+}
+
+.nav_zumbeginn {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    font-size: 35px;
+    left: 50px;
+    top: 50px;
+    display: flex;
+    text-decoration: none;
+
+}
+
+.nav_zumbeginn:hover {
+    color: rgb(174, 168, 168);
+    font-size: 46px;
+}
+
+.nav_zurbegruessung {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    font-size: 35px;
+    right: 50px;
+    top: 50px;
+    display: flex;
+    text-decoration: none;
+
+}
+
+.nav_zurbegruessung:hover {
+    color: rgb(174, 168, 168);
+    font-size: 46px;
 }
 
 .planeten {
@@ -153,7 +196,7 @@
     font-size: 35px;
 }
 
-.audiosaturn{
+.audiosaturn {
     position: absolute;
     left: 50px;
     bottom: 50px;
@@ -224,7 +267,7 @@
     font-size: 35px;
 }
 
-.audiosaturn2{
+.audiosaturn2 {
     position: absolute;
     right: 50px;
     bottom: 50px;
@@ -422,7 +465,7 @@
     font-size: 35px;
 }
 
-.audiomars{
+.audiomars {
     position: absolute;
     left: 50px;
     bottom: 50px;
@@ -497,9 +540,9 @@
     font-size: 35px;
 }
 
-.audiomars2{
+.audiomars2 {
     position: absolute;
-    right:50px;
+    right: 50px;
     top: 150px;
 }
 
