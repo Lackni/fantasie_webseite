@@ -1,54 +1,34 @@
-.astronauten {
-    /*astronauten*/
-    background-color: black;
+.index {
+    background-image: url(img/bg-index.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
 }
 
-.merbold {
-    position: absolute;
-    top: 180px;
-    left: 50px;
-    height: 500px;
-    width: 396px;
+/************************************************************************************NavBar*/
+.navlinks {
+    padding: 16px;
+    display: flex;
+    color: white;
+    text-decoration: none;
+    justify-content: space-evenly;
+    font-size: 25px;
 }
 
-.reiter {
-    position: absolute;
-    top: 180px;
-    left: 700px;
-    height: 500px;
-    width: 396px;
+.navlinks:hover {
+    color: rgb(174, 168, 168);
+    font-size: 26px;
 }
 
-.gerst {
-    position: absolute;
-    top: 180px;
-    left: 1350px;
-    height: 500px;
-    width: 396px;
-}
-
-.maurer {
-    position: absolute;
-    top: 180px;
-    left: 1950px;
-    height: 500px;
-    width: 396px;
-
-
-}
-
+/*********************************************************************************Begrüßung*/
 .begruessung {
-    /*begrüßung*/
     background-image: url(img/eclipse-g78ca531e9_1280.jpg);
     background-size: cover;
     margin: 0;
 }
 
 .überschriftbegrüssung {
-    color: white;
+    color: rgb(255, 255, 255);
     position: absolute;
     display: flex;
     left: 655px;
@@ -56,117 +36,14 @@
     top: 50px;
 }
 
-.index {
-    /*index*/
-    background-image: url(img/bg-index.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0;
-}
-
-.iss {
-    /*iss*/
-    background-image: url(img/bg-iss11.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0;
-}
-
-.issbilder {
-    /*issbilder*/
-    background-image: url(img/bg-iss-4.jpg);
-    height: 100vh;
-    background-size: cover;
-    margin: 0;
-}
-
-.issbilder2 {
-    /*issbilder2*/
-    background-image: url(img/bg-iss-5.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0;
-}
-
-.mars {
-    /*mars*/
-    background-image: url(img/bg-mars.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0;
-}
-
-.marsbilder {
-    /*marsbilder*/
-    background-image: url(img/bg-mehr-mars.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0;
-}
-
-.mond {
-    /*mond*/
-    background-image: url(img/bg-mond.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0;
-}
-
-.mondbilder {
-    /*mondbilder*/
-    background-image: url(img/bg-mehrmond.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0;
-}
-
-.saturn {
-    /*saturn*/
-    background-image: url(img/background-saturn.jpg);
-    background-size: cover;
-    margin: 0;
-}
-
-.saturnbilder {
-    /*saturnbilder*/
-    background-image: url(img/bg-mehrzustaurn.jpg);
-    background-size: cover;
-    margin: 0;
-}
-
-.weltraumbahnhof {
-    /*weltraumbahnhof*/
-    background-image: url(img/Background-Projekte.jpg);
-    background-size: cover;
-    margin: 0;
-}
-
-.navlinks {
-    padding: 16px;
-    display: flex;
-    color: white;
-    text-decoration: none;
-    justify-content: space-around;
-    font-size: 25px;
-}
-
-.navlinks:hover {
-    color: rgb(174, 168, 168);
-    font-size: 26px;
-
-
-}
-
-/*--------------Begrüßung-------------*/
-.begtext {
+.überschriftbegrüssung1 {
     position: absolute;
     left: 150px;
     right: 150px;
     top: 180px;
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
     font-size: 40px;
-
 }
 
 .begtext1 {
@@ -188,31 +65,38 @@
     text-align: end;
 }
 
-/*.mond {
-    padding: 16px;
-    display: flex;
-    color: white;
-    text-decoration: none;
-    justify-content: space-around;
-    font-size: 25px;
-}*/
+/**************************************************************************Weltraumbahnhof*/
+.weltraumbahnhof {
+    /*weltraumbahnhof*/
+    background-image: url(img/Background-Projekte.jpg);
+    background-size: cover;
+    margin: 0;
+}
 
 .planeten {
     margin-top: 150px;
-    padding: 30px;
+    padding: 0px;
     display: flex;
     color: white;
     text-decoration: none;
     justify-content: space-around;
-    font-size: 25px;
+    font-size: 35px;
 }
 
 .planeten:hover {
     color: rgb(174, 168, 168);
-    font-size: 26px;
+    font-size: 36px;
 }
 
-/*--------------Saturn-------------*/
+/**********************************************************************************Saturn*/
+.saturn {
+    /*saturn*/
+    background-image: url(img/background-saturn.jpg);
+    background-size: cover;
+    margin: 0;
+}
+
+
 .saturntext {
     position: absolute;
     left: 50px;
@@ -256,7 +140,13 @@
     font-size: 35px;
 }
 
-/*--------------Saturnbilder-------------*/
+/***************************************************************************Saturnbilder*/
+.saturnbilder {
+    /*saturnbilder*/
+    background-image: url(img/bg-mehrzustaurn.jpg);
+    background-size: cover;
+    margin: 0;
+}
 
 .mehrsaturntext {
     color: white;
@@ -315,7 +205,17 @@
     font-size: 35px;
 }
 
-/*--------------Mond-------------*/
+/**********************************************************************************************Mond*/
+
+.mond {
+    /*mond*/
+    background-image: url(img/bg-mond.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+
 .mondtext {
     color: white;
     position: absolute;
@@ -372,11 +272,13 @@
     text-align: right;
 }
 
+
 .eagle {
     position: absolute;
     left: 125px;
     top: 600px;
 }
+
 
 .zumond2 {
     color: white;
@@ -392,7 +294,16 @@
     font-size: 35px;
 }
 
-/*------mehr Mond-------*/
+/************************************************************************************Mond 2*/
+
+.mondbilder {
+    /*mondbilder*/
+    background-image: url(img/bg-mehrmond.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
 .zurückzumond1 {
     color: white;
     position: absolute;
@@ -416,13 +327,23 @@
     width: 1300px;
 }
 
+/******************************************************************************Mond Audio*/
 .eagle1 {
     position: absolute;
     left: 800px;
     top: 1200px;
 }
 
-/*-------Mars--------*/
+/**********************************************************************************Mars*/
+.mars {
+    /*mars*/
+    background-image: url(img/bg-mars.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+
 .marstext {
     color: white;
     position: absolute;
@@ -477,7 +398,15 @@
     font-size: 35px;
 }
 
-/*--------Mehr Mars-----*/
+/**********************************************************************************Mars 2*/
+.marsbilder {
+    /*marsbilder*/
+    background-image: url(img/bg-mehr-mars.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
 .containermehrmars {
     justify-content: space-between;
 }
@@ -491,7 +420,6 @@
     text-decoration: none;
     font-size: 35px;
     width: 500px;
-
 }
 
 .mehrmarstext1 {
@@ -539,7 +467,16 @@
     font-size: 35px;
 }
 
-/*-------ISS-------*/
+/**********************************************************************************ISS*/
+
+.iss {
+    /*iss*/
+    background-image: url(img/bg-iss11.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
 .isstext {
     color: white;
     position: absolute;
@@ -575,32 +512,14 @@
     font-size: 35px;
 }
 
-.zurückzuiss1 {
-    color: white;
-    position: absolute;
-    left: 50px;
-    bottom: 50px;
-    text-decoration: none;
-    font-size: 30px;
-}
+/**********************************************************************************ISS 2*/
 
-.zurückzuiss1:hover {
-    color: rgb(174, 168, 168);
-    font-size: 35px;
-}
-
-.zurückzuiss2 {
-    color: white;
-    position: absolute;
-    left: 50px;
-    bottom: 50px;
-    text-decoration: none;
-    font-size: 30px;
-}
-
-.zurückzuiss2:hover {
-    color: rgb(255, 255, 255);
-    font-size: 35px;
+.issbilder {
+    /*issbilder*/
+    background-image: url(img/bg-iss-4.jpg);
+    height: 100vh;
+    background-size: cover;
+    margin: 0;
 }
 
 .mehrisstext {
@@ -624,6 +543,20 @@
     text-align: right;
 }
 
+.zurückzuiss1 {
+    color: white;
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.zurückzuiss1:hover {
+    color: rgb(174, 168, 168);
+    font-size: 35px;
+}
+
 .zudenastronautenderiss {
     color: white;
     position: absolute;
@@ -638,8 +571,18 @@
     font-size: 35px;
 }
 
-.nochmehrisstext {
-    color: white;
+/**********************************************************************************Weltraumspaziergang*/
+
+.issbilder2 {
+    /*issbilder2*/
+    background-image: url(img/bg-iss-5.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+.weltraumspaziergang {
+    color: rgb(255, 255, 255);
     position: absolute;
     top: 100px;
     left: 300px;
@@ -649,16 +592,21 @@
     text-align: right;
 }
 
-.nochmehrisstext1 {
+.zurückzuiss2 {
     color: white;
     position: absolute;
-    right: 50px;
+    left: 50px;
     bottom: 50px;
     text-decoration: none;
     font-size: 30px;
 }
 
-.astronautenlink {
+.zurückzuiss2:hover {
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+}
+
+.zudenastronauten {
     color: rgb(0, 0, 0);
     position: absolute;
     right: 50px;
@@ -667,12 +615,14 @@
     font-size: 30px;
 }
 
-.astronautenlink:hover {
+.zudenastronauten:hover {
     color: rgb(174, 168, 168);
     font-size: 35px;
 }
 
-.astronautentext {
+/**********************************************************************************Die Astronauten der ISS*/
+
+.astronautentext-head {
     color: white;
     position: absolute;
     left: 150px;
@@ -681,7 +631,7 @@
 
 }
 
-.astronautentext1 {
+.text-ulf-merbold {
     color: white;
     position: absolute;
     width: 400px;
@@ -692,7 +642,7 @@
     text-align: center;
 }
 
-.astronautentext2 {
+.text-thomas-reiter {
     color: white;
     position: absolute;
     width: 400px;
@@ -703,7 +653,7 @@
     text-align: center;
 }
 
-.astronautentext3 {
+.text-alexander-gerst {
     color: white;
     position: absolute;
     width: 400px;
@@ -714,7 +664,7 @@
     text-align: center;
 }
 
-.astronautentext4 {
+.text-matthias-maurer {
     color: white;
     position: absolute;
     width: 400px;
@@ -725,7 +675,48 @@
     text-align: center;
 }
 
-/*--------Erde--------*/
+.astronauten {
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+.merbold {
+    position: absolute;
+    top: 180px;
+    left: 50px;
+    height: 500px;
+    width: 396px;
+}
+
+.reiter {
+    position: absolute;
+    top: 180px;
+    left: 700px;
+    height: 500px;
+    width: 396px;
+}
+
+.gerst {
+    position: absolute;
+    top: 180px;
+    left: 1350px;
+    height: 500px;
+    width: 396px;
+}
+
+.maurer {
+    position: absolute;
+    top: 180px;
+    left: 1950px;
+    height: 500px;
+    
+    width: 396px;
+}
+
+
+/**********************************************************************************Erde*/
 .erde {
     background-image: url(img/bg-erde.jpg);
     background-repeat: no-repeat;
@@ -764,6 +755,12 @@
     font-size: 30px;
 }
 
+.zuerdeteil2:hover {
+    color: rgb(174, 168, 168);
+    font-size: 35px;
+}
+
+/**********************************************************************************Erde2*/
 .erde2 {
     background-image: url(img/bg-erde3.jpg);
     background-position: center;
@@ -827,17 +824,6 @@
     text-align: right;
 }
 
-.erdeaspekte {
-    color: white;
-    position: absolute;
-
-    right: 50px;
-    font-size: 30px;
-    text-decoration: none;
-    top: 1000px;
-    text-align: center;
-}
-
 .zuerdeteil1 {
     color: rgb(255, 255, 255);
     position: absolute;
@@ -845,6 +831,11 @@
     bottom: 50px;
     text-decoration: none;
     font-size: 30px;
+}
+
+.zuerdeteil1:hover {
+    color: rgb(174, 168, 168);
+    font-size: 35px;
 }
 
 .zuerdeteil3 {
@@ -856,12 +847,55 @@
     font-size: 30px;
 }
 
+.zuerdeteil3:hover {
+    color: rgb(174, 168, 168);
+    font-size: 35px;
+}
+
+/**********************************************************************************Erde 3*/
+
 .erde3 {
     background-image: url(img/bg-erde-3-kontinente.jpg);
     background-position: center;
     background-position-y: unset;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.videoafrika {
+    position: absolute;
+    left: 1300px;
+    top: 600px;
+}
+
+.videoaustralien {
+    position: absolute;
+    right: 400px;
+    bottom: 250px;
+}
+
+.videoasien {
+    position: absolute;
+    right: 250px;
+    top: 450px;
+}
+
+.videoeuropa {
+    position: absolute;
+    right: 1300px;
+    top: 200px;
+}
+
+.videosuedamerika {
+    position: absolute;
+    left: 450px;
+    bottom: 500px;
+}
+
+.videousa {
+    position: absolute;
+    left: 180px;
+    top: 300px;
 
 }
 
@@ -874,6 +908,11 @@
     font-size: 30px;
 }
 
+.weiterzuerdeteil4:hover {
+    color: rgb(174, 168, 168);
+    font-size: 35px;
+}
+
 .zurückzuerdeteil2 {
     color: rgb(0, 0, 0);
     position: absolute;
@@ -883,6 +922,13 @@
     font-size: 30px;
 }
 
+.zurückzuerdeteil2:hover {
+    color: rgb(174, 168, 168);
+    font-size: 35px;
+}
+
+/**********************************************************************************Erde 4*/
+
 .erde4 {
     background-image: url(img/bg-erde-3.jpg);
     background-position: center;
@@ -891,14 +937,6 @@
     background-color: aqua;
 }
 
-.zurückzuerdeteil3{
-    color: rgb(255, 255, 255);
-    position: absolute;
-    left: 50px;
-    bottom: 50px;
-    text-decoration: none;
-    font-size: 30px;
-}
 .dienatur {
     position: absolute;
     color: white;
@@ -957,46 +995,23 @@
     text-align: center;
 }
 
-.voegel {
+.voegelaudio {
     position: absolute;
     left: 1125px;
     bottom: 50px;
 
 }
 
-.videoafrika{
+.zurückzuerdeteil3 {
+    color: rgb(255, 255, 255);
     position: absolute;
-    left: 1300px;
-    top: 600px;
+    left: 50px;
+    bottom: 50px;
+    text-decoration: none;
+    font-size: 30px;
 }
 
-.videoaustralien{
-    position: absolute;
-    right: 400px;
-    bottom: 250px;
-}
-
-.videoasien{
-    position: absolute;
-    right: 250px;
-    top: 450px;
-}
-
-.videoeuropa{
-    position: absolute;
-    right: 1300px;
-    top: 200px;
-}
-
-.videosuedamerika{
-position: absolute;
-left: 450px;
-bottom: 500px;
-}
-
-.videousa{
-position: absolute;
-left:180px;
-top: 300px;
-
+.zurückzuerdeteil3:hover {
+    color: rgb(174, 168, 168);
+    font-size: 35px;
 }
